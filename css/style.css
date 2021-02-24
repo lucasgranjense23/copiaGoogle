@@ -1,0 +1,120 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.itens {
+    display: inline;
+    float:right;
+    text-decoration: none;
+}
+a.gmail-img {
+    color: rgba(27, 27, 27, 0.993);
+    margin-top: 28px;
+    margin-right: 18px;
+    font-size: 14px;
+
+}
+a.underline-itens:hover {
+    text-decoration: underline;
+}
+img.menudeaplicativos {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+img.menudeaplicativos:hover {
+    opacity: 1;
+}
+
+a.menu {
+    margin-top: 24px;
+}
+
+.btn-login {
+    margin: 18px 30px 0px 20px;
+    background-color: #4584f0;
+    color: #ffffff;
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+a.btn-login:hover {
+    border-bottom: 1px solid rgba(184, 183, 183, 0.74);
+    
+}
+div.caixa-btn {
+    display: flex;
+    float: right;
+    margin-top: 23px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    
+     
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+}
+ul{
+    border: 2px solid;
+    border-color: rgba(121, 119, 119, 0.116);
+    border-radius: 10px;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 210px;
+    width: 50%;
+
+}
+nav {
+    width: 580px;
+    height: 50%;
+    right: -580px;
+    margin-right:250px;
+    position: absolute;
+    display: inline;
+    
+}
+
+nav ul {
+    float: right;  
+}
+img.menu-iten{
+    padding: 10px 0 0;
+    border-radius: 10px;
+    
+}
+
+label {
+    position: absolute;
+    z-index: 1;
+}
+.app-iten {
+    float: right;
+    padding: 6px 0 8px 0;
+    margin: 10px 8px;
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+    
+}
+li.app-iten:hover {
+    border-radius: 5px;
+    background-color: #4584f057;
+    cursor: pointer;
+}
+
+.scroll-menu {
+    overflow: hidden;
+    overflow-y: scroll;
+}
